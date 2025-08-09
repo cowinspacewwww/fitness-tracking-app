@@ -1,22 +1,13 @@
 ## Getting Started
 
-### Backend
+1. make sure you have the msql server and workbench installed and set up.
+2. install intellij
+3. inside the mysql workbench,  run the command 
+CREATE DATABASE fitness_tracker;
+3. run the BackendApplication file inside the backend folder. this will make the tables inside the fitness_tracker database
+4. run npm run dev on the front end folder. 
 
-1. Navigate to the `backend` directory.
-2. Configure your database in `src/main/resources/application.properties`.
-3. Run the Spring Boot application:
-   ```bash
-   ./mvnw spring-boot:run
-   ```
+packages installed:
+axios, bootstrap, react-router-dom
 
-### Frontend
-
-1. Navigate to the `frontend` directory.
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
+[ credits to alex abainza ]
